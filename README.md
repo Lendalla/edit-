@@ -3,7 +3,7 @@ local Window = Library.CreateLib("Manoch Hub", "DarkTheme")
 local Tab = Window:NewTab("TabName")
 
 
-local Section = Tab:NewSection("ต่างๆ")
+local Section = Tab:NewSection("อื่นๆ")
 
 Section:NewToggle("ความเร็ว 500", "ToggleInfo", function(state)
     if state then
