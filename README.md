@@ -7,11 +7,153 @@ local Section = Tab:NewSection("ต่างๆ")
 
 Section:NewToggle("ความเร็ว 500", "ToggleInfo", function(state)
     if state then
-        _G.speed = true
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 500
+        _G.attack = true
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
     else
-        _G.speed = false
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 15
+        _G.attack = false
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
+local CombatFramework = require(game:GetService("Players").LocalPlayer.PlayerScripts.CombatFramework)
+local Camera = require(game.ReplicatedStorage.Util.CameraShaker)
+Camera:Stop()
+coroutine.wrap(function()
+    game:GetService("RunService").Stepped:Connect(function()
+        if getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack then
+        getupvalues(CombatFramework)[2]['activeController'].timeToNextAttack = 0
+        getupvalues(CombatFramework)[2]['activeController'].hitboxMagnitude = 30
+        getupvalues(CombatFramework)[2]['activeController']:attack()
+        end
+        end)
+end)()
     end
 end)
 Section:NewButton("Copy Position", "ButtonInfo", function()
